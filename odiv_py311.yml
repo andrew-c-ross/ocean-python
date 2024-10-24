@@ -17,8 +17,12 @@ dependencies:
   # NumPy Version
   - numpy
 
+  # GFDL Packages
+  - noaa-gfdl::catalogbuilder
+
   # All other packages
   - astropy
+  - beautifulsoup4
   - bokeh
   - black
   - bottleneck
@@ -36,6 +40,7 @@ dependencies:
   - gcsfs
   - h5netcdf
   - holoviews
+  - infomap
   - intake
   - intake-xarray
   - ipykernel
@@ -49,6 +54,7 @@ dependencies:
   - mpich
   - nc-time-axis
   - netcdf4
+  - networkx
   - numba
   - palettable
   - pandas
@@ -57,6 +63,7 @@ dependencies:
   - pylint
   - pymysql
   - pyshp
+  - python-pptx
   - pytest
   - pytorch
   - pyyaml
