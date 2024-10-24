@@ -15,13 +15,14 @@ dependencies:
   - python=3.11
 
   # NumPy Version
-  - numpy=1.26.4
+  - numpy
 
   # General packages and dependencies
   - boltons
   - bottleneck
   - cartopy
   - cftime
+  - cython
   - dask
   - dask_labextension
   - dask-jobqueue
@@ -64,6 +65,7 @@ dependencies:
 
   # niche modules for time series
   - ruptures 
+  - tslearn
 
   # modules for ocean prediction
   - bias_correction
